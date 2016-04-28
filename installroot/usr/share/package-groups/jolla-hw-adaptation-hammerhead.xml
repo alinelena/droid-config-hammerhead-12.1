@@ -17,6 +17,7 @@
     <rpm:entry name="droid-config-hammerhead-policy-settings"/>
     <rpm:entry name="droid-config-hammerhead-preinit-plugin"/>
     <rpm:entry name="droid-hal-version-hammerhead"/>
+    <rpm:entry name="droid-hal-hammerhead-detritus"/>
     <rpm:entry name="pulseaudio-modules-droid"/>
     <rpm:entry name="qt5-qtmultimedia-plugin-mediaservice-gstmediacapture"/>
     <rpm:entry name="qt5-qtwayland-wayland_egl"/>

@@ -16,6 +16,7 @@ Requires:
 - droid-config-hammerhead-policy-settings
 - droid-config-hammerhead-preinit-plugin
 - droid-hal-version-hammerhead
+- droid-hal-hammerhead-detritus
 
 - pulseaudio-modules-droid
 # for audio recording to work:
