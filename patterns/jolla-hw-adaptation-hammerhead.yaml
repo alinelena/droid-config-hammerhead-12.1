@@ -27,12 +27,6 @@ Requires:
 - qt5-qpa-hwcomposer-plugin
 - qtscenegraph-adaptation
 
-# GStreamer v0.10 multimedia support is being deprecated
-#- gstreamer0.10-droidcamsrc
-#- gstreamer0.10-omx
-#- gstreamer0.10-droideglsink
-#- nemo-qtmultimedia-plugins-gstvideotexturebackend
-
 # Add GStreamer v1.0 as standard
 - gstreamer1.0
 - gstreamer1.0-plugins-good
@@ -65,6 +59,10 @@ Requires:
 - bluez-configs-sailfish
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill
+
+# OBEX for bluetooth PBAB
+- obexd-calldata-provider
+- obexd-configs-sailfish
 
 # enable device lock and allow to select untrusted software
 - jolla-devicelock-plugin-encsfa
