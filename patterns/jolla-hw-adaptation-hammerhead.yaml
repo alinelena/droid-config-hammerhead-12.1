@@ -37,6 +37,9 @@ Requires:
 # Camera and Video support
 - gstreamer1.0-droid
 
+# Gets rid of some logcat spam
+- pulseaudio-modules-droid-glue
+
 # This is needed for notification LEDs
 - mce-plugin-libhybris
 
